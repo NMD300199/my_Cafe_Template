@@ -1,0 +1,283 @@
+.navbar {
+    background-color: #000;
+    color: #fff;
+    padding: 8px 16px;
+    position: fixed;
+    z-index: 1;
+}
+
+.navbar-list {
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbar-list-item {
+    width: 25%;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 40px;
+    font-size: 15px;
+}
+
+.navbar-list-item:hover {
+    background-color: #ccc;
+    color: #000;
+    cursor: pointer;
+}
+
+/* img */
+
+.img {
+    background-image: url('/mycafe/assest/img/coffeehouse.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 725px;
+    position: relative;
+    filter: grayscale(50%);
+}
+
+.img-header {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%,-50%);
+    font-size: 90px;
+    line-height: 1.5;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+}
+
+.img-title {
+    font-size: 15px;
+    color: #fff;
+    line-height: 1.5;
+    padding: 12px 24px;
+    position: absolute;
+    bottom: 0;
+}
+
+.img-title-left {
+    bottom: 0;
+    left: 0;
+}
+
+.img-title-left > span {
+    background-color:#000;
+    padding: 0 8px;
+    line-height: 2.5;
+} 
+
+.img-title-right {
+    bottom: 0;
+    right: 0;
+}
+
+/* About */
+.common {
+    margin: 10px 0;
+    padding: 64px 0;
+    text-align: center;
+}
+
+.common > span {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #fff;
+    background-color: #000;
+    padding: 0 8px;
+    text-transform: uppercase;
+    font-weight: 200;
+    letter-spacing: 3px;
+    display: inline-block;
+}
+
+
+.about-content {
+    margin: 18px 0;
+    line-height: 1.5;
+    text-align: justify;
+    letter-spacing: 2px;
+    opacity: 0.7;
+}
+
+.about-cmt {
+    font-size: 18px;
+    line-height: 1.5;
+    background-color: #f1f1f1;
+    margin: 16px 0;
+    padding: 10px 16px;
+    border-left: 6px solid #ccc;
+    opacity: 0.7;
+}
+
+.about-cmt-title {
+    font-style: italic;
+}
+
+.about-cmt-text {
+    display: block;
+    margin: 18px 0;
+}
+
+.about-img {
+    margin-top: 18px;
+    width: 100%;
+    filter: grayscale(50%)
+}
+
+.about-info {
+    display: block;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 18px 0;
+    font-weight: 700;
+}
+
+.about-info > span {
+    opacity: 0.7;
+    font-weight: 300;
+}
+
+/* Menu */
+.menu-main {
+    /* background-color: #fff; */
+}
+
+.menu-navbar {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 8px 16px;
+    font-size: 18px;
+    line-height: 1.5;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+.menu-navbar-text {
+    width: 50%;
+}
+
+.menu-navbar-text:hover {
+    cursor: pointer;
+}
+
+.open {
+    background-color: #616161;
+    color: #fff;
+}
+
+.menu-list {
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    list-style: none;
+    padding: 48px 16px;
+    margin: 0;
+}
+
+.menu-list-items {
+    font-size: 18px;
+}
+
+.list-items-header {
+    margin: 10px 0;
+    line-height: 1.5;
+}
+
+.list-items-title {
+    display: block;
+    line-height: 1.5;
+    margin: 18px 0;
+    color: #757575;
+}
+
+/* image */
+.img-main {
+    width: 100%;
+    margin-top: 32px;
+}
+
+/* us */
+.us {
+    font-size: 18px;
+}
+
+.us-title {
+    line-height: 1.5;
+    margin: 18px 0;
+}
+
+.us-img {
+    width: 100%;
+}
+
+.us-content {
+    line-height: 1.5;
+    text-align: justify;
+    margin: 18px 0;
+}
+
+.us-content-text {
+    background-color: #000;
+    color: #fff;
+    padding: 0 8px;
+    line-height: 1.5;
+    display: inline-block;
+}
+
+.us-cmt {
+    line-height: 1.5;
+    margin: 18px 0;
+}
+
+.us-cmt-text {
+    font-weight: 600;
+}
+
+.us-input {
+    width: 100%;
+    line-height: 1.5;
+    padding: 16px 8px;
+    margin-bottom: 18px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+
+.us-btn {
+    margin-bottom: 18px;
+    font-size: 18px;
+    background-color: #000;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 8px 16px;
+    border: none;
+}
+
+.us-btn:hover {
+    background-color: #ccc;
+    color: #000;
+    cursor: pointer;
+}
+
+/* foooter */
+.footer {
+    height: 160px;
+    background-color: #f1f1f1;
+    padding: 48px 0;
+    text-align: center;
+}
+
+.footer-title {
+    display: block;
+    margin: 18px 0;
+    line-height: 2;
+}
+
+.footer-title-link {
+    color: #000;
+}

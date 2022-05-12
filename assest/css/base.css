@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0;
+    background-color: #fdf5ef;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img {
+    vertical-align: middle;
+}
+
+hr {
+    border: 1px solid transparent;
+}
+
+.mar {
+    padding: 0 15px;
+}
+
+.grid {
+    width: 100%;
+    display: block;
+}
+
+.grid.wide {
+    max-width: 700px;
+    margin: 0 auto;
+}
